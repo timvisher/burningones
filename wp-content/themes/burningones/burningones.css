@@ -1,0 +1,30 @@
+body {
+	background-color: #000;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 0.85em;
+	color: #ccc;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #f90;
+	font-family: Georgia, serif;
+}
+
+a:link,a:visited {
+	color: #ccc;
+	text-decoration: none;
+	border-bottom: 1px dotted #ff6;
+}
+
+a:hover {
+	border-bottom: 1px solid #ff6;
+}
+
+#postTitle {
+	margin-bottom: 0;
+}
+
+#titling {
+	margin-bottom: 0;
+	color: #693;
+}
