@@ -20,6 +20,10 @@ a:hover {
 	border-bottom: 1px solid #ff6;
 }
 
+a img {
+	border: none;
+}
+
 #postTitle {
 	margin-bottom: 0;
 }
