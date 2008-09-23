@@ -1,0 +1,4 @@
+DB Name = db221461482
+DB User Name = dbo221461482
+DB Password = 9ptucESg
+Host Name = db1195.perfora.net
