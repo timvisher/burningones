@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?php
+	echo '<?xml version="1.0" encoding="ISO-8859-1" ?>';
+	$img_dir = get_bloginfo('template_directory');
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -9,7 +12,7 @@
 <body>
 	<div id="header">
 		<h1 id="titling">Burning Ones</h1>
-		<img id="headerImage" src="images/header/header1.jpg" width="95%" title="Burning Ones" />
+		<img id="headerImage" src=<?php echo "\"$img_dir/images/header/header1.jpg\""; ?> width="95%" title="Burning Ones" />
 	</div>
 	<div id="body">
 		<div id="post">
@@ -28,7 +31,7 @@
 			<p id="comments"><a href="">3 Comments</a></p>
 		</div>
 		<div id="sidebar">
-			<a href="http://feeds.feedburner.com/burningonesblog" id="rssFeedLink"><img src="images/rss.png" title="Burning Ones RSS Feed" /></a>
+			<a href="http://feeds.feedburner.com/burningonesblog" id="rssFeedLink"><img src=<?php echo "\"$img_dir/images/rss.png\""; ?> title="Burning Ones RSS Feed" /></a>
 			<p id="siteSlug">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			<ul id="postNav">
 				<li>Previously: <a href="">Ipsum</a></li>
