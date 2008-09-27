@@ -42,21 +42,21 @@
 	<div id="footer">
 		<ul id="liens" class="block">
 			<h2>Liens</h2>
-			<li>Lorem <a href="">&raquo;</a></li>
-			<li>Ipsum <a href="">&raquo;</a></li>
-			<li>Dolor <a href="">&raquo;</a></li>
-			<li>Sit <a href="">&raquo;</a></li>
-			<li>Amet <a href="">&raquo;</a></li>
+			<li>Lorem&nbsp;<a href="">&raquo;</a></li>
+			<li>Ipsum&nbsp;<a href="">&raquo;</a></li>
+			<li>Dolor&nbsp;<a href="">&raquo;</a></li>
+			<li>Sit&nbsp;<a href="">&raquo;</a></li>
+			<li>Amet&nbsp;<a href="">&raquo;</a></li>
 		</ul>
 		<ul id="recently" class="block">
 			<h2>Recently</h2>
-			<li id="mostPopularPost">Dolor <a href="">&raquo;</a></li>
+			<li id="mostPopularPost">Dolor&nbsp;<a href="">&raquo;</a></li>
 			<ul id="recentPosts">
-				<li>Lorem <a href="">&raquo;</a></li>
-				<li>Ipsum <a href="">&raquo;</a></li>
-				<li>Dolor <a href="">&raquo;</a></li>
-				<li>Sit <a href="">&raquo;</a></li>
-				<li>Amet <a href="">&raquo;</a></li>
+				<li>Lorem&nbsp;<a href="">&raquo;</a></li>
+				<li>Ipsum&nbsp;<a href="">&raquo;</a></li>
+				<li>Dolor&nbsp;<a href="">&raquo;</a></li>
+				<li>Sit&nbsp;<a href="">&raquo;</a></li>
+				<li>Amet&nbsp;<a href="">&raquo;</a></li>
 			</ul>
 		</ul>
 		<ul id="elsewhere" class="block">
