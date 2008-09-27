@@ -68,7 +68,7 @@ a img {
 #footer {
 	clear: both;
 	border-top: #003300 solid .2em;
-	padding-top: 1em;
+	padding: 1em 7.5% 0 7.5%;
 }
 
 #linkerific {
@@ -78,7 +78,7 @@ a img {
 
 #footer .block {
 	margin: 0 0 0 2%;
-	width: 22%;
+	width: 26%;
 }
 
 #footer ul {
