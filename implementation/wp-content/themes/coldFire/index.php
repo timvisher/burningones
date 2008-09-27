@@ -27,15 +27,14 @@
 				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><blockquote><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></blockquote></blockquote>
 			</div>
-			<p id="postDate">18 July @ 9:30pm</p>
-			<p id="comments"><a href="">3 Comments</a></p>
+			<p id="postErrata">18 July @ 9:30pm - <a href="">3 Comments</a></p>
 		</div>
 		<div id="sidebar">
 			<a href="http://feeds.feedburner.com/burningonesblog" id="rssFeedLink"><img src=<?php echo "\"$template_dir/images/rss.png\""; ?> title="Burning Ones RSS Feed" /></a>
 			<p id="siteSlug">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			<ul id="postNav">
-				<li>Previously: <a href="">Ipsum</a></li>
-				<li>Next: <a href="">Dolor</a></li>
+				<li><a href="">&laquo;</a>&nbsp;Ipsum</li>
+				<li><a href="">&raquo;</a>&nbsp;Dolor</li>
 			</ul>
 		</div>
 	</div>
