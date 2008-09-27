@@ -40,7 +40,6 @@
 		</div>
 	</div>
 	<div id="footer">
-		<!--<div id="linkerific">-->
 		<ul id="blogRoll" class="block">
 			<li><a href="">Lorem</a></li>
 			<li><a href="">Ipsum</a></li>
@@ -89,7 +88,6 @@
 				</li>
 			</ul>
 		</ul>
-		<!--</div>-->
 	</div>
 	<p id="copyright">&copy; Burning Ones 2007-2008</p>
 	<!-- Twitter Scripts after page load! -->
