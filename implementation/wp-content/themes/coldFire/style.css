@@ -87,18 +87,18 @@ a img {
 
 #elsewhere ul {
 	float: none;
-	
+	margin-bottom: 1em;
 }
 
 #footer li {
 	list-style: none;
+	margin-left: 0;
 }
 
 #copyright {
 	clear: both;
 	text-align: center;
 	display: block;
-	padding-top: 1.5em;
 	width: 100%;
 }
 
