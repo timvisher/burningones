@@ -7,7 +7,7 @@
 		<div id="postContent">
 			<?php the_content(); ?>
 		</div>
-		<p id="postErrata"><?php the_time('j F @ g:ia'); ?> - <a href=""><?php comments_popup_link('0 Comments', '1 Comment', '% Comments', '' ,'Comments Off'); ?></a></p>
+		<p id="postErrata"><?php the_time('j F @ g:i a'); ?> - <a href=""><?php comments_popup_link('0 Comments', '1 Comment', '% Comments', '' ,'Comments Off'); ?></a></p>
 		<?php else : ?>
 		<h2>No Posts Here&hellip;</h2>
 		<p>We're working on a better way to say this&hellip; ;)</p>
