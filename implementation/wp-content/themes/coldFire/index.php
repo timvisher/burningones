@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 	<div id="post">
 		<h2 id="postTitle">Lorem Ipsum</h2>
 		<p id="postAuthor">Tim Visher</p>
@@ -13,14 +14,9 @@
 		</div>
 		<p id="postErrata">18 July @ 9:30pm - <a href="">3 Comments</a></p>
 	</div>
-	<div id="sidebar">
-		<a href="http://feeds.feedburner.com/burningonesblog" id="rssFeedLink"><img src="<?php templateFile("images/rss.png"); ?>" title="Burning Ones RSS Feed" /></a>
-		<p id="siteSlug">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		<ul id="postNav">
-			<li><a href="">&laquo;</a>&nbsp;Ipsum</li>
-			<li><a href="">&raquo;</a>&nbsp;Dolor</li>
-		</ul>
-	</div>
+
+<?php get_sidebar(); ?>
+	
 	<div id="footer">
 		<ul id="liens" class="block">
 			<h2>Liens</h2>
