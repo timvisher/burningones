@@ -11,5 +11,5 @@
 <body>
 	<div id="header">
 		<h1 id="titling">Burning Ones</h1>
-		<img id="headerImage" src="<?php templateFile("images/rotator/rotate.php"); ?>" title="Burning Ones" />
+		<img id="headerImage" src="<?php templateFile("images/rotator/rotate.php"); ?>" alt="Burning Ones" title="Burning Ones" />
 	</div>
