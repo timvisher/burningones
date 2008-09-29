@@ -33,7 +33,13 @@
 					<li>
 						<div id="twitter_div">
 						<h2><a href="http://twitter.com/stopsineman">@Twitter</a></h2>
-						<ul id="twitter_update_list"></ul>
+						<script type="text/javascript">
+						    var placeHolderNode = document.getElementById("twitter_div");
+						    var parentNode = placeHolderNode.parentNode;
+						    var insertedNode = document.createElement("ul");
+						    insertedNode .setAttribute("id", "twitter_update_list");
+						    parentNode.insertBefore( insertedNode, placeHolderNode);
+						</script>
 						</div>
 					</li>
 				</ul>
