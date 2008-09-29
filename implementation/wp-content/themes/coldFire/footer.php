@@ -31,8 +31,8 @@
 			<li>
 				<ul id="twitter">
 					<li>
-						<div id="twitter_div">
 						<h2><a href="http://twitter.com/stopsineman">@Twitter</a></h2>
+						<div id="twitter_div">
 						<script type="text/javascript">
 						    var placeHolderNode = document.getElementById("twitter_div");
 						    var parentNode = placeHolderNode.parentNode;
@@ -48,16 +48,8 @@
 				<ul id="flickr">
 					<li>
 						<!-- Start of Flickr Badge -->
-						<table id="flickr_badge_uber_wrapper" cellpadding="0" cellspacing="10" border="0">
-							<tr>
-								<td>
-									<a href="http://www.flickr.com" id="flickr_www">www.<strong style="color:#3993ff">flick<span style="color:#ff1c92">r</span></strong>.com</a>
-									<table cellpadding="0" cellspacing="10" border="0" id="flickr_badge_wrapper">
-										<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=5&amp;display=latest&amp;size=t&amp;layout=v&amp;source=user&amp;user=7155116%40N04"></script>
-									</table>
-								</td>
-							</tr>
-						</table>
+						<h2><a href="http://www.flickr.com" id="flickr_www">@<strong style="color:#3993ff">Flick<span style="color:#ff1c92">r</span></strong></a></h2>
+						<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=5&amp;display=latest&amp;size=t&amp;layout=x&amp;source=user&amp;user=7155116%40N04"></script>
 						<!-- End of Flickr Badge -->
 					</li>
 				</ul>
