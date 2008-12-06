@@ -1,11 +1,7 @@
 	<div id="footer">
 		<ul id="liens" class="block">
 			<li><h2>Liens</h2></li>
-			<li>Lorem&nbsp;<a href="">&raquo;</a></li>
-			<li>Ipsum&nbsp;<a href="">&raquo;</a></li>
-			<li>Dolor&nbsp;<a href="">&raquo;</a></li>
-			<li>Sit&nbsp;<a href="">&raquo;</a></li>
-			<li>Amet&nbsp;<a href="">&raquo;</a></li>
+			<?php get_links('-1', '<li>', '</li>', '<br />', FALSE, 'id', FALSE, FALSE, -1, FALSE); ?> <!-- TODO Research get_links -->
 		</ul>
 		<ul id="recently" class="block">
 			<li><h2>Recently</h2></li>
