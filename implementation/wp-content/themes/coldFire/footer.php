@@ -9,14 +9,20 @@
 		</ul>
 		<ul id="recently" class="block">
 			<li><h2>Recently</h2></li>
-			<li id="mostPopularPost">Dolor&nbsp;<a href="">&raquo;</a></li>
+			<!-- TODO <li id="mostPopularPost">Dolor&nbsp;<a href="">&raquo;</a></li> -->
 			<li>
-				<ul id="recentPosts">
-					<li>Lorem&nbsp;<a href="">&raquo;</a></li>
-					<li>Ipsum&nbsp;<a href="">&raquo;</a></li>
-					<li>Dolor&nbsp;<a href="">&raquo;</a></li>
-					<li>Sit&nbsp;<a href="">&raquo;</a></li>
-					<li>Amet&nbsp;<a href="">&raquo;</a></li>
+				<ul id="recentPosts"> 
+				        <?php
+					    query_posts('showposts=5');
+					    if (have_posts()) :
+					        while (have_posts()) :
+						    the_post();
+					?>
+					<li><?php the_title(); ?> <a href="<?php the_permalink(); ?>">&raquo;</a></li>
+				        <?php
+					        endwhile;
+					    endif;
+                                        ?>
 				</ul>
 			</li>
 		</ul>
